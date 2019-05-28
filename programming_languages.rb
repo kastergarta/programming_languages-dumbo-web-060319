@@ -39,5 +39,5 @@ def reformat_languages(languages)
       new_languages[name][:style] << type
     end
   end
-  new_languages
+  return new_languages
 end
